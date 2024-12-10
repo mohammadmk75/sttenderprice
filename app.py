@@ -85,7 +85,7 @@ if pb > 0 and beta > 0 and gama > 0:
 
             # Calculate LCL and UCL
             lcl = 87 + 0.4 * min(std, 10)
-            ucl = 130 - 0.4 * min(std, 20)
+            ucl = 130 - 0.25 * min(std, 20)
             st.write(f"LCL: {lcl:.2f}, UCL: {ucl:.2f}")
 
             # Update Status Based on LCL and UCL
