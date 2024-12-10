@@ -20,8 +20,8 @@ st.title("Tender Evaluation App")
 # Tender Estimation Inputs
 st.header("Tender Estimation Details")
 pb = format_number_input("Enter the Tender Estimation Value (P):" , key="pb" ) # Adds a thousands separator)
-beta = st.number_input("Enter the Beta Value (β):", min_value=0.0, format="%.2f")
-gama = st.number_input("Enter the Gama Value (γ):", min_value=0.0, format="%.2f")
+beta = st.number_input("Enter the Beta Value (β):", min_value=0.0, step=0.1, format="%.2f")
+gama = st.number_input("Enter the Gama Value (γ):", min_value=0.0, step=0.1,format="%.2f")
 
 # Calculate P0
 if pb > 0 and beta > 0 and gama > 0:
