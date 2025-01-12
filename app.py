@@ -165,7 +165,7 @@ if tender_category == '1399':
                         lower_bound = m_prime - importance_factor * s_prime
                         upper_bound = m_prime + importance_factor * s_prime
                         st.write(f"Lower Bound is: {lower_bound:.4f}")
-                        st.write(f"Upper Bound is {upper_bound:.4f}")
+                        st.write(f"Upper Bound is: {upper_bound:.4f}")
 
                         for company_name, data in acceptable_companies.items():
                             if not (lower_bound <= data['xi'] <= upper_bound):
@@ -325,7 +325,7 @@ else:
                         lower_bound = m_prime - importance_factor * s_prime
                         upper_bound = m_prime + importance_factor * s_prime
                         st.write(f"Lower Bound is: {lower_bound:.4f}")
-                        st.write(f"Upper Bound is {upper_bound:.4f}")
+                        st.write(f"Upper Bound is: {upper_bound:.4f}")
 
                         for company_name, data in acceptable_companies.items():
                             if not (lower_bound <= data['xi'] <= upper_bound):
