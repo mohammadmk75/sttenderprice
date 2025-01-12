@@ -16,7 +16,7 @@ def format_number_input(label,key):
 logo_path = 'logo.jpg'
 st.image(logo_path, width = 100)
 # App Title
-st.title("Tender Evaluation App")
+st.title("Paniz Energy Tender Evaluation App")
 
 
 # Tender Estimation Inputs
