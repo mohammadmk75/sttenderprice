@@ -13,6 +13,8 @@ def format_number_input(label,key):
     except ValueError:
         st.error("Please enter a valid number.")
         return 0.0
+logo_path = 'logo.jpg'
+st.image(logo_path, width = 300)
 # App Title
 st.title("Tender Evaluation App")
 
