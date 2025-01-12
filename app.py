@@ -14,7 +14,7 @@ def format_number_input(label,key):
         st.error("Please enter a valid number.")
         return 0.0
 logo_path = 'logo.jpg'
-st.image(logo_path, width = 300)
+st.image(logo_path, width = 100)
 # App Title
 st.title("Tender Evaluation App")
 
